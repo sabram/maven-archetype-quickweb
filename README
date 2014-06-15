@@ -1,19 +1,48 @@
 maven-archetype-quickweb
 ========================
-Failed experiment to create an alternative to maven-archetype-quickstart that would create a fuller directory layout to start
+Failed experiment to create an alternative to maven-archetype-quickstart that would create a fuller directory layout to start with. For example:
 
 my-app
 |-- pom.xml
 |-- src
 |   -- main
+|      -- resources
 |      -- java
 |         -- com
 |            -- shaunabram
 |   -- test
+|      -- resources
 |      -- java
 |         -- com
 |            -- shaunabram
-|               -- AppTest.java    
-|-- resources
-|-- webapp
-|   -- index.jsp
+|               -- AppTest.java
+|   -- webapp
+|      -- index.jsp
+|      -- WEB-INF
+|         -- web.xml
+
+Originally copied from: http://svn.apache.org/repos/asf//maven/archetypes/trunk/maven-archetype-quickstart/
+After seeing this stackover flow posting: http://stackoverflow.com/questions/12634890/maven-archetype-quickstart-with-resources-folder
+This posting helped: mvn install archetype:update-local-catalog
+And after running: mvn install archetype:update-local-catalog
+I can see it show up in .m2, but when I run: mvn archetype:generate -DarchetypeCatalog=local
+I get an erorr saying:
+INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+Merge branch 'master' of https://github.com/sabram/maven-archetype-quickweb
+[INFO] Total time: 2.431s
+[INFO] Finished at: Sun Jun 15 01:55:04 PDT 2014
+[INFO] Final Memory: 13M/186M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-archetype-plugin:2.0:generate (default-cli) on project maven-archetype-quickweb: The desired archetype does not exist (org.apache.maven.archetypes:maven-archetype-quickweb:1.0) -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+I may come back to and do more investigation in to how to create maven archetype. Doing it in Gradle is lso an option, but doesn't sem to be well supported yet:
+http://forums.gradle.org/gradle/topics/does_gradle_have_maven_archetype_like_functionality
+http://stackoverflow.com/questions/11524790/gradle-counterpart-to-maven-archetype
