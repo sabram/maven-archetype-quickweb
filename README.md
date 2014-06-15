@@ -2,11 +2,10 @@ maven-archetype-quickweb
 ========================
 Failed experiment to create an alternative to maven-archetype-quickstart that would create a fuller directory layout to start
 
-my-app
-
+'my-app
 |-- pom.xml
-
 |-- src
+'
 |   -- main
 |      -- java
 |         -- com
