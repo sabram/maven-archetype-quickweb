@@ -27,6 +27,7 @@ my-app
 ```
 
 To use:
+
 1. Clone from git
 
 $ git clone git://github.com/sabram/maven-archetype-quickweb.git
