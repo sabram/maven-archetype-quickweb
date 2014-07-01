@@ -1,7 +1,7 @@
 ##maven-archetype-quickweb
 ========================
 Maven archetype to create a new project with a layout that is essentially a combination of what you
-get with the standard maven archetypes of [quickstart](http://maven.apache.org/archetype/maven-archetype-bundles/maven-archetype-quickstart/) and webapp.
+get with the standard maven archetypes of [quickstart](http://maven.apache.org/archetype/maven-archetype-bundles/maven-archetype-quickstart/) and [webapp](http://maven.apache.org/archetype/maven-archetype-bundles/maven-archetype-webapp/).
 More specifically, this archetype creates a project with the following layout:
 
 ```
