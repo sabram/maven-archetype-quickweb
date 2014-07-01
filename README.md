@@ -1,7 +1,7 @@
 ##maven-archetype-quickweb
 ========================
-Maven archetype to create an application with a directory layout that is essentially a combination of the directory structure you
-get with the standard maven archetypes of quickstart and webapp.
+Maven archetype to create a new project with a layout that is essentially a combination of what you
+get with the standard maven archetypes of [quickstart](http://maven.apache.org/archetype/maven-archetype-bundles/maven-archetype-quickstart/) and webapp.
 More specifically, this archetype creates a project with the following layout:
 
 ```
@@ -56,6 +56,7 @@ $ mvn archetype:generate
 ```
 Replacing &lt;my.groupid&gt;  and &lt;my-artifactId&gt; as appropriate.
 For example:
+
 ```mvn archetype:generate -DarchetypeGroupId=com.shaunabram -DarchetypeArtifactId=maven-archetype-quickweb -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.yourcompany -DartifactId=yourProjectName```
 
 Links:
