@@ -4,7 +4,7 @@ Maven archetype to create an application with a directory layout that is essenti
 get with the standard maven archetypes of quickstart and webapp.
 More specifically, this archetype creates a project with the following layout:
 
-
+```
 my-app
 |-- pom.xml
 |-- src
@@ -24,6 +24,7 @@ my-app
 |      -- index.jsp
 |      -- WEB-INF
 |         -- web.xml
+```
 
 To use:
 1. Clone from git
