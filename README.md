@@ -42,6 +42,7 @@ Notes:
 * You should now see the project in your local maven repo. For example:
 
 `    Mac: ~/.m2/repository/com/shaunabram/maven-archetype-quickweb`
+
 `    Windows: ${user.home}\.m2\repository\com\shaunabram\maven-archetype-quickweb`
 
 ####3. Run to generate your own project:
