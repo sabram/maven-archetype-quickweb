@@ -33,7 +33,7 @@ $ git clone git://github.com/sabram/maven-archetype-quickweb.git
 $ mvn install archetype:update-local-catalog
 
 Notes:
-* Do this from the maven-archetype-quickweb directory
+*Do this from the maven-archetype-quickweb directory
 * You should now see the project in your local maven repo. For example:
 ** Mac: ~/.m2/repository/com/shaunabram/maven-archetype-quickweb
 ** Windows: ${user.home}\.m2\repository\com\shaunabram\maven-archetype-quickweb
