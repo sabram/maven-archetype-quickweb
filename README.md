@@ -37,21 +37,26 @@ To use:
 `$ mvn install archetype:update-local-catalog`
 
 Notes:
+
 * Do this from the maven-archetype-quickweb directory
 * You should now see the project in your local maven repo. For example:
+
 ** Mac: ~/.m2/repository/com/shaunabram/maven-archetype-quickweb
 ** Windows: ${user.home}\.m2\repository\com\shaunabram\maven-archetype-quickweb
 
-3. Run to generate your own project:
+####3. Run to generate your own project:
+
+```
 $ mvn archetype:generate
 -DarchetypeGroupId=com.shaunabram
 -DarchetypeArtifactId=maven-archetype-quickweb
 -DarchetypeVersion=1.0-SNAPSHOT
 -DgroupId=<my.groupid>
 -DartifactId=<my-artifactId>
+```
 Replacing <my.groupid>  and <my-artifactId> as appropriate.
 For example:
-mvn archetype:generate -DarchetypeGroupId=com.shaunabram -DarchetypeArtifactId=maven-archetype-quickweb -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.yourcompany -DartifactId=yourProjectName
+```mvn archetype:generate -DarchetypeGroupId=com.shaunabram -DarchetypeArtifactId=maven-archetype-quickweb -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.yourcompany -DartifactId=yourProjectName```
 
 Links:
 * http://svn.apache.org/repos/asf//maven/archetypes/trunk/maven-archetype-quickstart/
