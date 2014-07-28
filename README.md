@@ -58,10 +58,4 @@ For example:
 
 ```mvn archetype:generate -DarchetypeGroupId=com.shaunabram -DarchetypeArtifactId=maven-archetype-quickweb -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.yourcompany -DartifactId=yourProjectName```
 
-Links:
-* http://svn.apache.org/repos/asf//maven/archetypes/trunk/maven-archetype-quickstart/
-* http://stackoverflow.com/questions/12634890/maven-archetype-quickstart-with-resources-folder
-* http://maven.apache.org/guides/mini/guide-creating-archetypes.html
-* http://maven.apache.org/archetype/maven-archetype-plugin/specification/archetype-metadata.html
-* https://code.google.com/p/jianwikis/wiki/HowToCreateMavenArchetypeFromProject
-* http://stackoverflow.com/questions/13499873/how-to-use-my-custom-archetype-with-maven
+See also [my blog post on this](http://www.shaunabram.com/maven-archetype-quickweb/).
