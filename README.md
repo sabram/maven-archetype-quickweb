@@ -58,4 +58,6 @@ For example:
 
 ```mvn archetype:generate -DarchetypeGroupId=com.shaunabram -DarchetypeArtifactId=maven-archetype-quickweb -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.yourcompany -DartifactId=yourProjectName```
 
-See also [my blog post on this](http://www.shaunabram.com/maven-archetype-quickweb/).
+
+
+See also [my blog post](http://www.shaunabram.com/maven-archetype-quickweb/).
