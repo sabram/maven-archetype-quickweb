@@ -64,8 +64,8 @@ For example:
 [My blog post](http://www.shaunabram.com/maven-archetype-quickweb/).
 
 ####Problems
-```
 If you get an error like this:
+```
     [INFO] ------------------------------------------------------------------------
     [INFO] BUILD FAILURE
     [INFO] ------------------------------------------------------------------------
