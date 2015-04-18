@@ -73,7 +73,9 @@ If you get an error like this:
     [INFO] Finished at: 2015-04-18T16:32:52-08:00
     [INFO] Final Memory: 16M/245M
     [INFO] ------------------------------------------------------------------------
-    [ERROR] Failed to execute goal org.apache.maven.plugins:maven-archetype-plugin:2.3:generate (default-cli) on project yourProjectName:
-org.apache.maven.archetype.exception.InvalidPackaging: Unable to add module to the current project as it is not of packaging type 'pom'
+    [ERROR] Failed to execute goal org.apache.maven.plugins:maven-archetype-plugin:2.3:
+            generate (default-cli) on project yourProjectName:
+            org.apache.maven.archetype.exception.InvalidPackaging:
+            Unable to add module to the current project as it is not of packaging type 'pom'
 ```
 Then check the directory you are running the mvn archetype:generate command from. It cannot have a pom.xml file in it already.
