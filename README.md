@@ -78,4 +78,4 @@ If you get an error like this:
             org.apache.maven.archetype.exception.InvalidPackaging:
             Unable to add module to the current project as it is not of packaging type 'pom'
 ```
-Then check the directory you are running the mvn archetype:generate command from. It cannot have a pom.xml file in it already.
+Then check the directory you are running the mvn archetype:generate command from. It cannot contain a pom.xml.
