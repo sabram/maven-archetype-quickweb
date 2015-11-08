@@ -54,9 +54,12 @@ $ mvn archetype:generate
 -DartifactId=<my-artifactId>
 ```
 Replacing &lt;my.groupid&gt;  and &lt;my-artifactId&gt; as appropriate.
+
+You may also append -DinteractiveMode=false to accept defaults.
+
 For example:
 
-```mvn archetype:generate -DarchetypeGroupId=com.shaunabram -DarchetypeArtifactId=maven-archetype-quickweb -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.yourcompany -DartifactId=yourProjectName```
+```mvn archetype:generate -DarchetypeGroupId=com.shaunabram -DarchetypeArtifactId=maven-archetype-quickweb -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.yourcompany -DartifactId=yourProjectName -DinteractiveMode=false```
 
 
 
